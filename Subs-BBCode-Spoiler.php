@@ -14,7 +14,7 @@ function BBCode_Spoiler(&$bbc)
 		'tag' => 'spoiler',
 		'type' => 'unparsed_content',
 		'dcontent' => '<div style="padding: 3px; font-size: 1em;"><div style="text-transform: uppercase; border-bottom: 1px solid #5873B0; margin-bottom: 3px; font-size: 0.8em; font-weight: bold; display: block;"><span onClick="if (this.parentNode.parentNode.getElementsByTagName(\'div\')[1].getElementsByTagName(\'div\')[0].style.display != \'\') {  this.parentNode.parentNode.getElementsByTagName(\'div\')[1].getElementsByTagName(\'div\')[0].style.display = \'\'; this.innerHTML = \'<b>xu7aprafafrA: </b><a href=\\\'#\\\' onClick=\\\'return false;\\\'>xu7aprafafrC</a>\'; } else { this.parentNode.parentNode.getElementsByTagName(\'div\')[1].getElementsByTagName(\'div\')[0].style.display = \'none\'; this.innerHTML = \'<b>xu7aprafafrA: </b><a href=\\\'#\\\' onClick=\\\'return false;\\\'>xu7aprafafrB</a>\'; }" /><b>xu7aprafafrA: </b><a href="#" onClick="return false;">xu7aprafafrB</a></span></div><div class="quotecontent"><div style="display: none;">$1</div></div></div>',
-		'validate' => create_function('&$tag, &$data, $disabled', '
+		'validate' => isset($disabled['spoiler']) ? null : create_function('&$tag, &$data, $disabled', '
 			global $txt;
 			if (!isset($tag["content"]))
 			{
