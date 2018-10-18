@@ -1,6 +1,6 @@
 <?php
 /**********************************************************************************
-* Subs-BBCode-Changelog.php
+* Subs-BBCode-spoiler.php
 ***********************************************************************************
 ***********************************************************************************
 * This program is distributed in the hope that it is and will be useful, but      *
@@ -23,6 +23,19 @@ function BBCode_Spoiler(&$bbc)
 				$tag["content"] = $tmp;
 			}
 		'),
+	);
+}
+
+function BBCode_Spoiler_Button(&$buttons)
+{
+	global $txt;
+
+	$buttons[count($buttons) - 1][] = array(
+		'image' => 'spoiler',
+		'code' => 'spoiler',
+		'description' => $txt['spoiler'],
+		'before' => '[spoiler]',
+		'after' => '[/spoiler]',
 	);
 }
 

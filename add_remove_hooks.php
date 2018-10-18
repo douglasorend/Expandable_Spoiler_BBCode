@@ -22,6 +22,7 @@ if (SMF == 'SSI')
 $hook_functions = array(
 	'integrate_pre_include' => '$sourcedir/Subs-BBCode-Spoiler.php',
 	'integrate_bbc_codes' => 'BBCode_Spoiler',
+	'integrate_bbc_buttons' => 'BBCode_Spoiler_Button',
 );
 
 // Adding or removing them?
