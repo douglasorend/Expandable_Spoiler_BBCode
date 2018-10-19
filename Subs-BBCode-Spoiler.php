@@ -2,11 +2,12 @@
 /**********************************************************************************
 * Subs-BBCode-Spoiler.php
 ***********************************************************************************
-***********************************************************************************
 * This program is distributed in the hope that it is and will be useful, but      *
 * WITHOUT ANY WARRANTIES; without even any implied warranty of MERCHANTABILITY    *
 * or FITNESS FOR A PARTICULAR PURPOSE.                                            *
 **********************************************************************************/
+if (!defined('SMF'))
+	die('Hacking attempt...');
 
 function BBCode_Spoiler(&$bbc)
 {
