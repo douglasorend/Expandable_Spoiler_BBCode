@@ -23,6 +23,7 @@ $hook_functions = array(
 	'integrate_pre_include' => '$sourcedir/Subs-BBCode-Spoiler.php',
 	'integrate_bbc_codes' => 'BBCode_Spoiler',
 	'integrate_bbc_buttons' => 'BBCode_Spoiler_Button',
+	'integrate_general_mod_settings' => 'BBCode_Spoiler_Settings',
 );
 
 // Adding or removing them?
