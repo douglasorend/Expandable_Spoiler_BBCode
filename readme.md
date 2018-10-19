@@ -1,41 +1,44 @@
-[hr]
-[center][color=red][size=16pt][b]EXPANDING & COLLAPSING SPOILER TAG v3.2B[/b][/size][/color]
-[url=http://www.simplemachines.org/community/index.php?action=profile;u=253913][b]By Dougiefresh[/b][/url] -> [url=http://custom.simplemachines.org/mods/index.php?mod=3981]Link to Mod[/url]
-[/center]
-[hr]
+-----
 
-[color=blue][b][size=12pt][u]Notice[/u][/size][/b][/color]
-This mod is no longer being supported.  You are strongly encouraged to use [url=https://custom.simplemachines.org/mods/index.php?mod=4166]Yet Another Spoiler Mod[/url] instead...
+## EXPANDING & COLLAPSING SPOILER TAG v3.2B
 
-[color=blue][b][size=12pt][u]Introduction[/u][/size][/b][/color]
+[**By Dougiefresh**](http://www.simplemachines.org/community/index.php?action=profile;u=253913) -> [Link to Mod](http://custom.simplemachines.org/mods/index.php?mod=3981)
+
+-----
+
+## *Notice*
+This mod is no longer being supported.  You are strongly encouraged to use [Yet Another Spoiler Mod](https://custom.simplemachines.org/mods/index.php?mod=4166) instead...
+
+## Introduction
 This modification adds a BBCode to the forum that allows the post author to hide a spoiler in the post, which is clickable to display it to the user.
 
 This BBCode takes the forms:
-[code][nobbc]
+```[nobbc]
 [nobbc][spoiler]{content}[/spoiler][/nobbc]
 [nobbc][spoiler {params}]{content}[/spoiler][/nobbc]
 [nobbc][spoiler=Some Text]{content goes here}[/spoiler][/nobbc]
-[/nobbc][/code]
+[/nobbc]
+```
 
-The [b]{params}[/b] section may be any of the following parameters:
-o [b]text[/b] - Replaces default "Spoiler" text in the header.
-o [b]quote[/b] - Text that follows the "Spoiler" text in the header.  Must be in quotes.
-o [b]show[/b] - Replaces default "Show" text in the header.
-o [b]hide[/b] - Replaces default "Hide" text in the header.
-o [b]guests[/b] - Flag to show spoiler to guests or not.  May be [b]n[/b], [b]no[/b], [b]false[/b], [b]y[/b], [b]yes[/b], or [b]true[/b].
+The **{params}** section may be any of the following parameters:
+o **text** - Replaces default "Spoiler" text in the header.
+o **quote** - Text that follows the "Spoiler" text in the header.  Must be in quotes.
+o **show** - Replaces default "Show" text in the header.
+o **hide** - Replaces default "Hide" text in the header.
+o **guests** - Flag to show spoiler to guests or not.  May be **n**, **no**, **false**, **y**, **yes**, or **true**.
 
 Note that the form (#3) with the equal sign does not parse other block-level bbcode tags inside the spoiler.  Empty form or form with parameters does not have this restriction.
 
-[color=blue][b][size=12pt][u]Admin Settings[/u][/size][/b][/color]
-This BBCode may be disabled by going into the [b]Admin[/b] => [b]Forum[/b] => [b]Posts and Topics[/b] => [b]Bulletin Board Code[/b] and unchecking the bbcodes you don't want to use.  You may also be uninstall this mod in order to disable it.
+## Admin Settings
+This BBCode may be disabled by going into the **Admin** => **Forum** => **Posts and Topics** => **Bulletin Board Code** and unchecking the bbcodes you don't want to use.  You may also be uninstall this mod in order to disable it.
 
-[color=blue][b][size=12pt][u]Compatibility Notes[/u][/size][/b][/color]
+## Compatibility Notes
 This mod was tested on SMF 2.0.9, but should work on SMF 2.1 Beta 1, as well as SMF 2.0 and up.  SMF 1.x is not and will not be supported.
 
-[color=blue][b][size=12pt][u]Changelog[/u][/size][/b][/color]
-The changelog can be viewed at [url=http://www.xptsp.com/board/free-modifications/expandable-offtopic-bbcode-42/?tab=1]XPtsp.com[/url].
+## Changelog
+The changelog can be viewed at [XPtsp.com](http://www.xptsp.com/board/free-modifications/expandable-offtopic-bbcode-42/?tab=1).
 
-[color=blue][b][size=12pt][u]License[/u][/size][/b][/color]
+## License
 Copyright (c) 2015 - 2018, Douglas Orend
 All rights reserved.
 
