@@ -5,16 +5,16 @@
 	<id>Dougiefresh:Spoiler</id>
 	<name>Expanding & Collapsing Spoiler Tag</name>
 	<type>modification</type>
-	<version>1.7</version>
+	<version>1.8</version>
 
-	<install for="2.0 - 2.0.99">
+	<install for="2.0 - 2.0.99, 2.1 Beta 1 - 2.1.99">
 		<readme parsebbc="true">readme.txt</readme>
 		<code>add_remove_hooks.php</code>
 		<modification type="file">english.xml</modification>
 		<require-file name="Subs-BBCode-Spoiler.php" destination="$sourcedir" />
 		<require-file name="spoiler.gif" destination="$imagesdir/bbc" />
 	</install>
-	<uninstall for="2.0 - 2.0.99">
+	<uninstall for="2.0 - 2.0.99, 2.1 Beta 1 - 2.1.99">
 		<code>add_remove_hooks.php</code>
 		<modification type="file" reverse="true">english.xml</modification>
 		<remove-file name="$sourcedir/Subs-BBCode-Spoiler.php" />		
