@@ -1,3 +1,6 @@
+v2.4 - December 30th, 2015
+o Fixed minor visual issue with Spoiler tag without parameters.
+
 v2.3 - December 9th, 2015
 o Fixed undefined variable error regarding guest needing to login/register.
 
@@ -33,7 +36,7 @@ o License change to Simplified BSD.  No functionality change.
 
 v1.5 - December 30th, 2014
 o language.xml file renamed to english.xml
-o Added new form of the bbcode: [spoiler=Some Text]Content Here[/spoiler]
+o Added new form of the bbcode: [b][nobbc][spoiler=Some Text]Content Here[/spoiler][/nobbc][/b]
 o Changed bbcode definition code based on bbcodes defined in Sources/Subs.php...
 
 v1.4 - December 29th, 2014
