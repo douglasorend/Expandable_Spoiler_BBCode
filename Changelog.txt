@@ -1,3 +1,9 @@
+v2.0 - November 14th, 2015
+o Changed all spoiler tags to block-level tags.
+o Changed bbcode tag types so that a validation function can be used to parse content inside tags.
+o Changed the [b][nobbc][spoiler=text]{content}[/spoiler][/nobbc][/b] form to not parse other block-level tags.
+o Moved all language modifications to the end of the language file.
+
 v1.10 - July 20th, 2015
 o Remade Spoiler bbcode button with different font.
 
