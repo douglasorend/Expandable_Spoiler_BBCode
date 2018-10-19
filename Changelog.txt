@@ -1,3 +1,7 @@
+v3.0 - Febrary 13th, 2016
+o Added "expand" parameter to indicate whether or not the spoiler is expanded by default.
+o Rewrote spoiler validation function to support new parameter.
+
 v2.4 - December 30th, 2015
 o Fixed minor visual issue with Spoiler tag without parameters.
 
@@ -36,7 +40,7 @@ o License change to Simplified BSD.  No functionality change.
 
 v1.5 - December 30th, 2014
 o language.xml file renamed to english.xml
-o Added new form of the bbcode: [b][nobbc][spoiler=Some Text]Content Here[/spoiler][/nobbc][/b]
+o Added new form of the bbcode: [spoiler=Some Text]Content Here[/spoiler]
 o Changed bbcode definition code based on bbcodes defined in Sources/Subs.php...
 
 v1.4 - December 29th, 2014
