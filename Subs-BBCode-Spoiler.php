@@ -63,7 +63,7 @@ function BBCode_Spoiler_Validate(&$tag, &$data, &$disabled)
 		return ($tag['content'] = '');
 	$guests = substr($tag['content'], 0, strpos($tag['content'], '|'));
 	if ((!empty($modSettings['spoiler_no_guests']) || $guests == 'n' || $guests == 'no' || $guests == 'false') && !empty($user_info['is_guest']))
-		return ($tag['content'] = $txt['spoiler_guest_only_html']);
+		return ($tag['content'] = $txt['spoiler_no_guest_html']);
 	$data = parse_bbc($data);
 	$str = str_replace('<show></show>', $txt['debug_show'], substr($tag['content'], strpos($tag['content'], '|') + 1));
 	$str = str_replace('<show>', '', str_replace('</show>', '', $str));
